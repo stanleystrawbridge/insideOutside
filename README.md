@@ -1,5 +1,5 @@
 # insideOutside
-A simple method for classifying interior and exterior points of a 3D point cloud. 
+A simple method for classifying interior and exterior points of a 3D point cloud (MATLAB2021a). 
 
 **Method overview:**
 isideOutside computes a convex hull over the set of points via Delaunay triangulation. 
