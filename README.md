@@ -9,10 +9,10 @@ For each point, it then computes the set of distances from that point to each fa
 The minimum distance to the surface and variance of distances to the surface is then calculated for each point.
 Hierarchical clustering is then performed over the two dimensoinal parameter space to classify the points as either inside (away from the hull) or outside (near the hull).
 
-**input**: points = mx3 matrix of cartesian coordinates. 
+**input**: <br /> points = mx3 matrix of cartesian coordinates. 
 
-**output**: idx = mx1 bit vector indexing inside points (0) and outside points (1).
-        clustData = mx2 maxtrix of parameter values. 
-                    Colum 1 is the log10 minimum distance to surface. 
-                    Column 2 is the variance of distances to the surface.
-
+**output**: <br />
+**idx** = mx1 bit vector indexing inside points (0) and outside points (1).<br />
+**clustData** = mx2 maxtrix of parameter values.
+>> Column 1 is the log10 minimum distance to surface. <br />
+>> Column 2 is the variance of distances to the surface.
