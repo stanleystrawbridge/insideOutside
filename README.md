@@ -4,9 +4,9 @@ Originally published in Stirparo and Kurowski, et al. (2021) PNAS (https://doi.o
 For full method, with benchmarking, please cite Strawbridge, et al. (2021) BioRxiv.
 
 **Method overview:**
-isideOutside computes a convex hull over the set of points via Delaunay triangulation. 
+insideOutside computes a convex hull over the set of points via Delaunay triangulation. 
 For each point, it then computes the set of distances from that point to each face of the hull.
-The minimum distance to the surface and variance of distances to the surface is then calculated for each point.
+The minimum distance to the surface and variance in distances to the surface is then calculated for each point.
 Hierarchical clustering is then performed over the two dimensoinal parameter space to classify the points as either inside (away from the hull) or outside (near the hull).
 
 **input**: <br /> points = mx3 matrix of cartesian coordinates. 
